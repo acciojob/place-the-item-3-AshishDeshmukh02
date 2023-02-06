@@ -2,13 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 
-/* .item {
-  width: 30%;
-  height: 50px;
-  background-color: lightblue;
-  text-align: center;
-  line-height: 50px;
-  border: 1px solid black;
-} */
+.item {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+}
